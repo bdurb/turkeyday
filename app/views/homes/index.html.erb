@@ -8,3 +8,15 @@
 <h3>Turkeyday has its routs back to pre Mezo-American rituals where people would stuff all their yummy snacks into dufflebags.  Well, eons passed, until one day Christopher Columbous floated across on the Santa Maria, and the locals thought "hmmm, instead of stuffing our goodies inside a dufflebag, why dont we stuff natures goodies into a turkey."  Christopher Columbous thought this was a fantastic idea and instructed his men to stuff their mouths with the stuffed turkey.  Some years later pumpkin pie was added.</h3>
 <br />
 <h4> For related topics see "The Great Turkey Revolt of 1753"</h4>
+<br />
+<br />
+
+<h1>Add Your Favorite Historical <%= link_to 'Turkey', new_turkey_path %></h1>
+<br />
+
+
+<% @turkeys.each do |turkey| %>
+  
+    <h1><%= turkey.name %></h1>
+    </div>
+<%end%>
